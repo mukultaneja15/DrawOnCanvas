@@ -1,0 +1,32 @@
+body {
+    background: teal;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  #canv1 {
+    background: #909090;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0px 5px 30px 4px rgba(0, 0, 0, 0.5);
+  
+    margin: 10px auto;
+  }
+  
+  #clrbtn {
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 3px;
+    border-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    /* box-shadow: 0px 5px 30px 4px rgba(0, 0, 0, 0.5); */
+    transition: all 0.1s ease-out;
+    outline: none;
+  }
+  
+  #clrbtn:active {
+    color: blue;
+  }
+  
