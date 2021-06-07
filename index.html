@@ -10,15 +10,29 @@
     
     <body>
         
-        <div>
+        <div id="grid-container">
             
-            <canvas id="canv1" width="1000px" height="600px"></canvas>
-            
-            <br><br><br>
-            
-            <button id="clrbtn">Clear</button>
+            <div id="desc">
+                <p>Draw triangles on the canvas by simply clicking and dragging mouse.</p>
+                <p>You can also:</p>
+                <ul>
+                    <li>Drag the triangles</li>
+                    <li>Delete a triangle by double clicking anywhere inside the triangle</li>
+                </ul>
+                <br>
+                <br>
+            </div>
+
+            <div id="canv-btn">
+                <canvas id="canv1" width="1000px" height="600px"></canvas>
+                
+                <!-- <br><br><br> -->
+                
+                <button id="clrbtn">Clear</button>
+            </div>
         
-        </div>
+            
+    </div>
         
         <script src="script.js">
                 
